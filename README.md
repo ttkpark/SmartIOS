@@ -12,6 +12,8 @@
 - 서버+웹+기획 담당 : 출결 웹 서비스, 출결 데이터 DB를 구현함. 프로젝트를 기획함.
 - 비콘카드 및 iOS 담당 : 비콘카드 단말기 및 iOS 어플리케이션 구현함.
 - **비콘인식 AP 및 Android 담당 : 사원의 존재를 인식하는 AP 제작함. Android 어플리케이션을 구현함.**
+- 본인이 맡은 부분은
+- `/3D Printing`, `/Android App`, `/Firmware Circuit`, `/Firmware Source`이다.
 
 ## 개발 요소
 
