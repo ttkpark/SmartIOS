@@ -1,0 +1,1 @@
+C:/Users/pleasing/AppData/Local/Programs/Python/Python39/python.exe f:/Desktop/AJUAttender/pmgMaker/convert.py

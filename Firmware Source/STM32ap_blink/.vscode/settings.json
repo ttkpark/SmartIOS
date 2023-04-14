@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "eth-main.h": "c",
+        "eth-nic.h": "c",
+        "stdint.h": "c",
+        "internet.h": "c",
+        "eth-dns.h": "c",
+        "stdio.h": "c",
+        "addstr.h": "c",
+        "attenderapi.h": "c",
+        "aes.h": "c",
+        "aesdata.h": "c",
+        "coder.h": "c",
+        "base64.h": "c",
+        "stm32l0xx_hal.h": "c",
+        "memory.h": "c",
+        "log.h": "c",
+        "string.h": "c",
+        "coderbuffer.h": "c",
+        "ethernetif.h": "c",
+        "cjson.h": "c",
+        "bleservice.h": "c",
+        "programmer.h": "c",
+        "eth-icmp.h": "c",
+        "eth-ip.h": "c"
+    }
+}

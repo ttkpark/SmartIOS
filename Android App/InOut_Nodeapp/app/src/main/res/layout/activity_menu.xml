@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/copyright"
+        android:text="SMARTIOS (v1.0)"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="center|center_vertical"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.example.inout_nodeapp.MmenuIconContent
+        android:id="@+id/AttendList"
+        app:Title="AttendList"
+        app:iconSrc="@drawable/ic_menu_door"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_bar_content_width"
+        android:translationX="10dp"
+        app:BackColor="@color/purple_500"
+        app:ContentOrientation="left"
+        app:IconSize="50dp"
+        app:MarginLeft="30dp"
+        app:MarginRight="20dp"
+        app:MarginVertical="22dp"
+        app:TextSize="9.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/copyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        app:subTitleVisible="false" />
+
+
+    <com.example.inout_nodeapp.MmenuIconContent
+        android:id="@+id/AccountBtn"
+        app:Title="Account"
+        app:iconSrc="@drawable/ic_menu_person"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_bar_content_width"
+        android:translationX="-10dp"
+        app:BackColor="@color/purple_500"
+        app:ContentOrientation="right"
+        app:IconSize="50dp"
+        app:MarginLeft="20dp"
+        app:MarginRight="30dp"
+        app:MarginVertical="22dp"
+        app:TextSize="9.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/copyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:subTitleVisible="false" />
+
+    <com.example.inout_nodeapp.MmenuIconContent
+        android:id="@+id/toWebView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_bar_content_width"
+        android:translationX="10dp"
+        app:BackColor="@color/purple_500"
+        app:ContentOrientation="left"
+        app:IconSize="50dp"
+        app:MarginLeft="30dp"
+        app:MarginRight="20dp"
+        app:MarginVertical="22dp"
+        app:TextSize="9.5sp"
+        app:Title="Web Setting"
+        app:iconSrc="@drawable/ic_menu_setting"
+        app:layout_constraintBottom_toTopOf="@+id/copyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79"
+        app:subTitleVisible="false" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

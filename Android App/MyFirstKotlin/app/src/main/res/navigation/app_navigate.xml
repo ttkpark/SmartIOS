@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigate"
+    app:startDestination="@+id/mainItem">
+
+    <fragment
+        android:id="@+id/mainItem"
+        android:name="com.example.myfirstkotlin.Fragment1_main"
+        android:label="Fragment1_main"
+        android:layout="@layout/fragment1_main"/>
+    <fragment
+        android:id="@+id/accountItem"
+        android:name="com.example.myfirstkotlin.Fragment_account"
+        android:label="Fragment2_account"
+        android:layout="@layout/fragment_account"/>
+    <fragment
+        android:id="@+id/list_item"
+        android:name="com.example.myfirstkotlin.Fragment3_list"
+        android:label="Fragment3_list"
+        android:layout="@layout/fragment3_list" />
+    <fragment
+        android:id="@+id/settingItem"
+        android:name="com.example.myfirstkotlin.Fragment5_setting"
+        android:label="Fragment5_setting"
+        android:layout="@layout/fragment5_setting"/>
+</navigation>

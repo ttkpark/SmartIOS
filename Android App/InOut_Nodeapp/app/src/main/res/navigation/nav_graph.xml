@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/APSettingActivity_general"
+        android:name="com.example.inout_nodeapp.APSettingActivity_general"
+        android:label="activity_ap_setting_general"
+        tools:layout="@layout/activity_ap_setting_general" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.inout_nodeapp.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity_to_menuActivity"
+            app:destination="@id/menuActivity" />
+    </activity>
+    <activity
+        android:id="@+id/menuActivity"
+        android:name="com.example.inout_nodeapp.MenuActivity"
+        android:label="activity_menu_admin"
+        tools:layout="@layout/activity_menu_admin" >
+        <action
+            android:id="@+id/action_menuActivity_to_accountActivity"
+            app:destination="@id/accountActivity" />
+    </activity>
+    <activity
+        android:id="@+id/accountActivity"
+        android:name="com.example.inout_nodeapp.AccountActivity"
+        android:label="activity_account"
+        tools:layout="@layout/activity_account" />
+    <activity
+        android:id="@+id/activity_simpleAttendList"
+        android:name="com.example.inout_nodeapp.Activity_simpleAttendList"
+        android:label="activity_actitvity_simple_attend_list"
+        tools:layout="@layout/activity_actitvity_simple_attend_list" />
+    <activity
+        android:id="@+id/activity_AttendList"
+        android:name="com.example.inout_nodeapp.Activity_AttendList"
+        android:label="Activity_AttendList" />
+    <activity
+        android:id="@+id/APSettingActivity"
+        android:name="com.example.inout_nodeapp.APSettingActivity"
+        android:label="APSettingActivity" />
+    <activity
+        android:id="@+id/APSettingActivity_IP"
+        android:name="com.example.inout_nodeapp.APSettingActivity_IP"
+        android:label="activity_ap_setting_ip"
+        tools:layout="@layout/activity_ap_setting_ip" />
+</navigation>

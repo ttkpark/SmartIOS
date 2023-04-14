@@ -1,0 +1,9 @@
+{
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "files.associations": {
+        "ethernet.h": "c",
+        "main.h": "c",
+        "header.h": "c",
+        "addstr.h": "c"
+    }
+}

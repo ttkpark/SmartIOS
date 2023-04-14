@@ -1,0 +1,76 @@
+LE13(-46)<\n>
+G : 202106040519<\n>
+H : 4405<\n>
+E = 134<\n>
+[16]{ 58 5E 60 71 0B FA 66 DA E2 DC E4 C7 9D 12 4B 0C }<\n>
+[32]{ 66 69 32 84 0B 6A AF 40 6E C8 C7 2B 22 15 4A 22<\n>
+ 2C DE B0 CE 88 1C AD D1 7C 3F 3C 69 D2 47 0E 30<\n>
+ }<\n>
+prepare finished!<\n>
+API_Send_BEACON<\n>
+Request URL : /api/sio/QUU2WjFkQ0tEdVNhWjE0WWFoeUp6dz0/Z1ZRN3QwQlBHVUl3bHFHaE01d3QvZz0/85649/hpioDNS_Get!<\n>
+421!<\n>
+436!<\n>
+packet received!<\n>
+packet received!<\n>
+packet received!<\n>
+TCP_Get_Wait SUCCESS!<\n>
+request bank = 2<\n>
+len:25<\n>
+str:"[{\"rtncode\":\"08\"}]"<\n>
+TCP: try TCP_Disconnect failed.<\n>
+returncode:08<\n>
+Succeed!<\n>
+
+
+
+LE5(-46)<\n>
+IV:[16]{ BC 0F 71 6C 0D 5C 27 DF AE D8 06 27 7C CB 3A E2 }<\n>
+Key:[32]{ 05 E7 00 5C 64 36 48 6F 30 CD CA A7 8F E4 4A 0F<\n>
+ F5 BF 75 87 FB CE CB 13 6F 96 20 C6 A0 1F AC 8C<\n>
+ }<\n>
+preDecrypted:[16]{ E6 B5 6D 4F 4F 54 B3 DB 8B 98 5A A2 5F 88 92 14 }<\n>
+bufferDecrypted:[10]{<\n>
+ 20 21 06 04 02 35 00 00 00 11 }<\n>
+G : 202106040565<\n>
+H : 4422<\n>
+E = 52<\n>
+[16]{ 00 5C BA FD 81 4F E2 DE 4D 80 FB 84 6C F5 38 53 }<\n>
+[32]{ A4 5A AF 9B 4A D4 1D 3C 7D D0 2B 86 00 2C 97 F5<\n>
+ C5 F4 48 F5 C1 2E 54 68 63 D0 67 03 E8 36 81 0D<\n>
+ }<\n>
+[16]{ 58 D2 DE B5 AD 04 3C 6E DF 33 1A C3 69 AD 86 B4 }<\n>
+[24]{ 57 4E 4C 65 74 61 30 45 50 47 37 66 4D 78 72 44<\n>
+ 61 61 32 47 74 41 3D 3D }<\n>
+[32]{ 56 30 35 4D 5A 58 52 68 4D 45 56 51 52 7A 64 6D<\n>
+ 54 58 68 79 52 47 46 68 4D 6B 64 30 51 54 30 39<\n>
+ }<\n>
+prepare finished!<\n>
+API_Send_BEACON<\n>
+Request URL : /api/sio/V05MZXRhMEVQRzdmTXhyRGFhMkd0QT0/NXBiY3lya2tOZXhuODA1clBXakZWZz0/45321/hpioDNS_Get!<\n>
+421!<\n>
+436!<\n>
+TCP_Get_Wait SUCCESS!<\n>
+request bank = 2<\n>
+len:25<\n>
+str:"[{\"rtncode\":\"08\"}]"<\n>
+TCP: try TCP_Disconnect failed.<\n>
+returncode:08<\n>
+Succeed!<\n>
+.4422BLEList_ProcessSensor Succeed <\n>
+linked1<\n>
+
+
+LE4(-46)<\n>
+BLEList_ProcessSensor Succeed <\n>
+linked1<\n>
+Send_API_ipcd<\n>
+object : 1000^1<\n>
+key : 3,4453,7<\n>
+SendStr : /api/sio/cFpVLzE5bWxUOVV1c2c4cS9tcXdIdz09/44533/ipcd<\n>
+request bank = 2<\n>
+TCP: try TCP_Disconnect failed.<\n>
+{<\n>
+<9>"rtncode":<9>"08",<\n>
+<9>"nodecode":<9>""<\n>
+}<\n>

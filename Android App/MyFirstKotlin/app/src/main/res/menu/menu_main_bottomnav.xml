@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myfirstkotlin.MainActivity">
+
+    <item
+        android:id="@+id/mainItem"
+        android:icon="@drawable/ic_round_home_24"
+        android:title="Main" /><!-- TODO : String Conversion -->
+    <item
+        android:id="@+id/listItem"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="I/O List" /><!-- TODO : String Conversion -->
+</menu>

@@ -1,0 +1,387 @@
+
+// prep:58+8+28=92 net:113 afterprocess:388-226+(151-113-20)=162+18 RS485:58
+//92:113:180:388
+//24:29:46:100
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,75,308163)
+NEW Sensor 0[111] entered!
+before BeaconSendAPI : 19ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528212
+idxEquip^idxUser = 7^111
+random = 7511
+Key = 117
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/NkxGOGpqdE5PbzB6OS9yY0ZCNlRlUT09/MTMvcmhLdlFFYkNGR0hsbHdCcDV0Zz09/75117/hpio
+    API_Send_BEACON GET prep end: 8ms
+        SmartIOS_Page start: 0ms
+        SmartIOS_Page dns end: 6ms
+        Page : /api/sio/NkxGOGpqdE5PbzB6OS9yY0ZCNlRlUT09/MTMvcmhLdlFFYkNGR0hsbHdCcDV0Zz09/75117/hpio
+        SmartIOS_Page require prep end: 20ms
+            HTTPSendGET start: 0ms
+            HTTPSendGET connected: 38ms
+            HTTPSendGET end: 113ms
+        SmartIOS_Page end: 151ms
+API_Send_BEACON getting result: 226ms
+BeaconSendAPI end : 307ms
+after BeaconSendAPI : 313ms
+testuser11,number:
+SensorListProcess.nameprint end
+after RS485 : 371ms
+end RS485 : 388ms
+
+// prep:58+8+20=84 net:120 afterprocess:395-233+(158-120-20)=152+18 RS485:75
+//84:120:170:395
+//22:32:45:105
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,504,308562)
+NEW Sensor 1[109] entered!
+before BeaconSendAPI : 18ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528210
+idxEquip^idxUser = 7^109
+random = 8102
+Key = 27
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/UUQ4b2kyYzBGVm9PbHR6SzgvLzZaQT09/eTNYc0svY1RYd0ZDQnZ2RmpFNjVKQT09/81027/hpio
+API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 6ms
+Page : /api/sio/UUQ4b2kyYzBGVm9PbHR6SzgvLzZaQT09/eTNYc0svY1RYd0ZDQnZ2RmpFNjVKQT09/81027/hpio
+SmartIOS_Page require prep end: 20ms
+HTTPSendGET start: 0ms
+HTTPSendGET connected: 47ms
+HTTPSendGET end: 120ms
+SmartIOS_Page end: 158ms
+API_Send_BEACON getting result: 233ms
+BeaconSendAPI end : 314ms
+after BeaconSendAPI : 320ms
+testuser09,number:
+SensorListProcess.nameprint end
+after RS485 : 378ms
+end RS485 : 395ms
+
+// prep:58+8+20=84 net:124 afterprocess:399-237+(162-124-20)=162+18 RS485:58
+//84:124:180:399
+//22:32:46:103
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,895,308968)
+NEW Sensor 2[113] entered!
+before BeaconSendAPI : 19ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528214
+idxEquip^idxUser = 7^113
+random = 2916
+Key = 67
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/clR3WUVIdjZCY1FaSzFJZ0Y1RGt5UT09/bDk5bFBkV2hCQ0VlSktLSG10WnNtdz09/29167/hpio
+API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 6ms
+Page : /api/sio/clR3WUVIdjZCY1FaSzFJZ0Y1RGt5UT09/bDk5bFBkV2hCQ0VlSktLSG10WnNtdz09/29167/hpio
+SmartIOS_Page require prep end: 20ms
+HTTPSendGET start: 0ms
+HTTPSendGET connected: 47ms
+HTTPSendGET end: 124ms
+SmartIOS_Page end: 162ms
+API_Send_BEACON getting result: 237ms
+BeaconSendAPI end : 318ms
+after BeaconSendAPI : 324ms
+testuser13,number:
+SensorListProcess.nameprint end
+after RS485 : 382ms
+end RS485 : 399ms
+
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,1315,309378)
+NEW Sensor 3[114] entered!
+before BeaconSendAPI : 19ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528215
+idxEquip^idxUser = 7^114
+random = 6006
+Key = 67
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/bDRzbGJiQmZOdkVteFJXbnBRZi92dz09/cUNIdzk5R2RoeWJ0aWwwRmd1STFtdz09/60067/hpio
+API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 6ms
+Page : /api/sio/bDRzbGJiQmZOdkVteFJXbnBRZi92dz09/cUNIdzk5R2RoeWJ0aWwwRmd1STFtdz09/60067/hpio
+SmartIOS_Page require prep end: 20ms
+HTTPSendGET start: 0ms
+HTTPSendGET connected: 45ms
+HTTPSendGET end: 116ms
+SmartIOS_Page end: 154ms
+API_Send_BEACON getting result: 229ms
+BeaconSendAPI end : 310ms
+after BeaconSendAPI : 316ms
+testuser14,number:
+SensorListProcess.nameprint end
+after RS485 : 374ms
+end RS485 : 391ms
+
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,1702,295682)
+NEW Sensor 4[110] entered!
+before BeaconSendAPI : 19ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528211
+idxEquip^idxUser = 7^110
+random = 5712
+Key = 127
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/NHA4V28rZDhwVVBpL1lDUG03d3lSZz09/bDlVSWFZQ2ZkSlpIZmdyakRTdmo4Zz09/57127/hpio
+API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 6ms
+Page : /api/sio/NHA4V28rZDhwVVBpL1lDUG03d3lSZz09/bDlVSWFZQ2ZkSlpIZmdyakRTdmo4Zz09/57127/hpio
+SmartIOS_Page require prep end: 20ms
+HTTPSendGET start: 0ms
+HTTPSendGET connected: 47ms
+HTTPSendGET end: 114ms
+SmartIOS_Page end: 152ms
+API_Send_BEACON getting result: 227ms
+BeaconSendAPI end : 308ms
+after BeaconSendAPI : 314ms
+testuser10,number:
+SensorListProcess.nameprint end
+after RS485 : 372ms
+end RS485 : 389ms
+
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,2097,310180)
+NEW Sensor 5[108] entered!
+before BeaconSendAPI : 19ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528209
+idxEquip^idxUser = 7^108
+random = 8760
+Key = 7
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/M0o2a3grUjFCSW5OTk16dk1RN2hZdz09/TnpTRGl5SkM5MDNtUG1FL3FsU2pPQT09/87607/hpio
+API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 6ms
+Page : /api/sio/M0o2a3grUjFCSW5OTk16dk1RN2hZdz09/TnpTRGl5SkM5MDNtUG1FL3FsU2pPQT09/87607/hpio
+SmartIOS_Page require prep end: 20ms
+HTTPSendGET start: 0ms
+HTTPSendGET connected: 47ms
+HTTPSendGET end: 118ms
+SmartIOS_Page end: 156ms
+API_Send_BEACON getting result: 231ms
+BeaconSendAPI end : 312ms
+after BeaconSendAPI : 318ms
+testuser08,number:
+SensorListProcess.nameprint end
+after RS485 : 376ms
+end RS485 : 393ms
+
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,2.81838,2490,310584)
+NEW Sensor 6[16] entered!
+before BeaconSendAPI : 19ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528208
+idxEquip^idxUser = 7^16
+random = 5060
+Key = 207
+BeaconSendAPI prepare end : 58ms
+Request URL : /api/sio/NUZnSzR4cFpEdU5uTHpCQmZqM1BVUT09/TGR4VzFqRlkwUzRjWWZIdEl3UWFZQT09/50607/hpio
+API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 6ms
+Page : /api/sio/NUZnSzR4cFpEdU5uTHpCQmZqM1BVUT09/TGR4VzFqRlkwUzRjWWZIdEl3UWFZQT09/50607/hpio
+SmartIOS_Page require prep end: 20ms
+HTTPSendGET start: 0ms
+HTTPSendGET connected: 63ms
+HTTPSendGET end: 136ms
+SmartIOS_Page end: 174ms
+API_Send_BEACON getting result: 250ms
+BeaconSendAPI end : 330ms
+after BeaconSendAPI : 336ms
+諛뺢린�샇,number:sio-20210101-006
+SensorListProcess.nameprint end
+after RS485 : 410ms
+end RS485 : 427ms
+
+SensorListProcess.if ENTERING start
+start : 0ms
+
+(ioState,dist,time,exit)= (1,3.16228,2954,311022)
+NEW Sensor 8[112] entered!
+before BeaconSendAPI : 18ms
+BeaconSendAPI start : 24ms
+YYYYMMDDnnnn = 2021122528213
+idxEquip^idxUser = 7^112
+random = 8178
+Key = 187
+    BeaconSendAPI prepare end : 57ms
+Request URL : /api/sio/cHF5Zm1lNkdwOWJOLy96UnBaandhQT09/YkRIUHZQOXViSDJqSjJPeTZURE40QT09/81787/hpio
+    API_Send_BEACON GET prep end: 8ms
+SmartIOS_Page start: 0ms
+SmartIOS_Page dns end: 5ms
+Page : /api/sio/cHF5Zm1lNkdwOWJOLy96UnBaandhQT09/YkRIUHZQOXViSDJqSjJPeTZURE40QT09/81787/hpio
+    SmartIOS_Page require prep end: 19ms
+    HTTPSendGET start: 0ms
+    HTTPSendGET connected: 48ms
+    HTTPSendGET end: 125ms
+    SmartIOS_Page end: 162ms
+    API_Send_BEACON getting result: 237ms
+BeaconSendAPI end : 318ms
+    after BeaconSendAPI : 324ms
+testuser12,number:
+SensorListProcess.nameprint end
+    after RS485 : 382ms
+    end RS485 : 399ms
+
+
+
+    
+(ioState,dist,time,exit)= (1,5.01187,37,185258)
+NEW Sensor 1[111] entered!
+BeaconSendAPI prepare end : 18ms
+API_Send_BEACON GET prep end: 0ms
+SmartIOS_Page require prep end: 0ms
+SmartIOS_Page end: 117ms
+JSON using start!
+json_createWithPool start
+json_createWithPool end
+API_Send_BEACON getting result: 146ms
+JSON using end!
+end RS485 : 182ms
+again : 187ms
+
+(ioState,dist,time,exit)= (1,5.01187,236,425077)
+NEW Sensor 3[113] entered!
+BeaconSendAPI prepare end : 18ms
+API_Send_BEACON GET prep end: 0ms
+SmartIOS_Page require prep end: 0ms
+SmartIOS_Page end: 112ms
+JSON using start!
+json_createWithPool start
+json_createWithPool end
+API_Send_BEACON getting result: 141ms
+JSON using end!
+end RS485 : 177ms
+again : 182ms
+
+21:0-21 prepare
++21
+41:0-41 connected
+18:41-59 sent
+55:59-114 got
+13:114-127 end
+49:127-176 after process
+
++0
+21:197-218 : RS485
+06:218-224 : others
+
+
+(ioState,dist,time,exit)= (1,3.54813,48,1000217742)<\n>
+NEW Sensor 3[114] entered!<\n>
+BeaconSendAPI prepare end : 21ms<\n>
+API_Send_BEACON GET prep end: 1ms<\n>
+SmartIOS_Page require prep end: 0ms<\n>
+HTTPSendGET start: 0ms<\n>
+eth-main.c:357 Received Packet TCP (len:24)<\n>
+HTTPSendGET connected: 41ms<\n>
+enc-tcp.c:1404 MY code : little waits until transmission success..<\n>
+HTTPSendGET sent: 59ms<\n>
+eth-main.c:357 Received Packet TCP (len:78)<\n>
+HTTPSendGET got: 114ms<\n>
+HTTPSendGET buffered: 118ms<\n>
+HTTPSendGET end: 127ms<\n>
+SmartIOS_Page end: 142ms<\n>
+JSON using start!<\n>
+json_createWithPool start<\n>
+json_createWithPool end<\n>
+API_Send_BEACON getting result: 176ms<\n>
+<2>,testuser14,91<3>JSON using end!<\n>
+end RS485 : 218ms<\n>
+again : 224ms<\n>
+
+(ioState,dist,time,exit)= (1,2.81838,243,198474)<\n>
+NEW Sensor 4[113] entered!<\n>
+BeaconSendAPI prepare end : 20ms<\n>
+API_Send_BEACON GET prep end: 0ms<\n>
+SmartIOS_Page require prep end: 0ms<\n>
+HTTPSendGET start: 0ms<\n>
+eth-main.c:357 Received Packet TCP (len:20)<\n>
+eth-main.c:357 Received Packet TCP (len:24)<\n>
+HTTPSendGET connected: 52ms<\n>
+enc-tcp.c:1404 MY code : little waits until transmission success..<\n>
+HTTPSendGET sent: 70ms<\n>
+eth-main.c:357 Received Packet TCP (len:78)<\n>
+HTTPSendGET got: 117ms<\n>
+HTTPSendGET buffered: 121ms<\n>
+HTTPSendGET end: 130ms<\n>
+SmartIOS_Page end: 145ms<\n>
+JSON using start!<\n>
+json_createWithPool start<\n>
+json_createWithPool end<\n>
+API_Send_BEACON getting result: 178ms<\n>
+<2>,testuser13,91<3>JSON using end!<\n>
+end RS485 : 220ms<\n>
+<111<112again : 227ms<\n>
+
+(ioState,dist,time,exit)= (1,2.81838,494,202450)<\n>
+NEW Sensor 7[108] entered!<\n>
+BeaconSendAPI prepare end : 21ms<\n>
+API_Send_BEACON GET prep end: 0ms<\n>
+SmartIOS_Page require prep end: 1ms<\n>
+HTTPSendGET start: 0ms<\n>
+eth-main.c:357 Received Packet TCP (len:20)<\n>
+eth-main.c:357 Received Packet TCP (len:24)<\n>
+HTTPSendGET connected: 53ms<\n>
+enc-tcp.c:1404 MY code : little waits until transmission success..<\n>
+HTTPSendGET sent: 71ms<\n>
+eth-main.c:357 Received Packet TCP (len:20)<\n>
+eth-main.c:357 Received Packet TCP (len:78)<\n>
+HTTPSendGET got: 157ms<\n>
+HTTPSendGET buffered: 161ms<\n>
+HTTPSendGET end: 170ms<\n>
+SmartIOS_Page end: 185ms<\n>
+JSON using start!<\n>
+json_createWithPool start<\n>
+json_createWithPool end<\n>
+API_Send_BEACON getting result: 218ms<\n>
+<2>,testuser08,91<3>JSON using end!<\n>
+end RS485 : 260ms<\n>
+again : 266ms<\n>
+
+(ioState,dist,time,exit)= (1,2.81838,779,204095)<\n>
+NEW Sensor 8[109] entered!<\n>
+BeaconSendAPI prepare end : 20ms<\n>
+API_Send_BEACON GET prep end: 0ms<\n>
+SmartIOS_Page require prep end: 0ms<\n>
+HTTPSendGET start: 0ms<\n>
+eth-main.c:357 Received Packet TCP (len:20)<\n>
+eth-main.c:357 Received Packet TCP (len:24)<\n>
+HTTPSendGET connected: 54ms<\n>
+enc-tcp.c:1404 MY code : little waits until transmission success..<\n>
+HTTPSendGET sent: 72ms<\n>
+eth-main.c:357 Received Packet TCP (len:78)<\n>
+HTTPSendGET got: 137ms<\n>
+HTTPSendGET buffered: 141ms<\n>
+HTTPSendGET end: 150ms<\n>
+SmartIOS_Page end: 165ms<\n>
+JSON using start!<\n>
+json_createWithPool start<\n>
+json_createWithPool end<\n>
+API_Send_BEACON getting result: 198ms<\n>
+<2>,testuser09,91<3>JSON using end!<\n>
+end RS485 : 240ms<\n>

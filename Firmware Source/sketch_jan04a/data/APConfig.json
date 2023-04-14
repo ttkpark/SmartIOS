@@ -1,0 +1,20 @@
+{
+  "apcode": "1e828aa7-0355-4c1c-b3a5-cdf860423b64",
+  "apip": "192.168.0.28",
+  "domain": "www.eduwon.net:8807",
+  "useyn": 1,
+  "dist": 10,
+  "idxClient": 2000,
+  "netmask": "255.255.255.0",
+  "gwip": "192.168.0.1",
+  "dnsip": "1.214.68.2",
+  "isDHCP": 1,
+  "IdentifyDistance": 30,
+  "BeaconTimeout": 20,
+  "ServerURL": "/api/att/",
+  "CDMURL": "/api/cdm/",
+  "reset": 1,
+  "dns2ip": "0.0.0.0",
+  "enableOutDetecting": 0,
+  "ipcdInterval": 60
+}

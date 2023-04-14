@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SMARTIOS</string>
+
+    <string name="QRCODE" translatable="false">https://qrcode.tec-it.com/API/QRCode?data=%s&amp;errorcorrection=H&amp;backcolor=%%23ffffff</string>
+
+    <!--<string name="URLGetDomain_Host" translatable="false">http://www.eduwon.net:20271/</string>-->
+
+    <string name="str_param8" translatable="false">%s/%s/%s/%s/%s/%s/%s/%s</string>
+    <string name="str_param6" translatable="false">%s/%s/%s/%s/%s/%s</string>
+    <string name="str_param5" translatable="false">%s/%s/%s/%s/%s</string>
+    <string name="str_param4" translatable="false">%s/%s/%s/%s</string>
+    <string name="str_param3" translatable="false">%s/%s/%s</string>
+
+    <string name="URLatt" translatable="false">api/att/</string>
+    <string name="URLcdm" translatable="false">api/cdm/</string>
+
+    <string name="BLE_STAT" translatable="false">BLE %s</string>
+    <string name="accessibility_overflow" translatable="false">This is a description of overflow button.</string>
+    <string name="GetClientcodeString">Enter the ClientCode.</string>
+
+</resources>

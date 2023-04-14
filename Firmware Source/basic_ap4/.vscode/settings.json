@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "eth-main.h": "c",
+        "eth-nic.h": "c",
+        "stdint.h": "c",
+        "internet.h": "c",
+        "eth-dns.h": "c",
+        "stdio.h": "c",
+        "addstr.h": "c",
+        "attenderapi.h": "c",
+        "aes.h": "c",
+        "aesdata.h": "c",
+        "coder.h": "c",
+        "base64.h": "c",
+        "cstdlib": "cpp",
+        "typeinfo": "cpp",
+        "cctype": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstdio": "cpp",
+        "type_traits": "cpp",
+        "limits": "cpp",
+        "*.tcc": "cpp",
+        "cstdint": "cpp"
+    }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">출결-SMARTIOS</string>
+    <string name="GetClientcodeString">회사코드를 입력하세요.</string>
+</resources>

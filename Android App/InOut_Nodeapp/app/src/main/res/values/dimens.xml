@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="TitleLeftMargin">8dp</dimen>
+    <dimen name="HomeIconLength">30dp</dimen>
+    <dimen name="HomeIconscale">1.2</dimen>
+    <dimen name="menu_bar_content_width">80dp</dimen>
+</resources>

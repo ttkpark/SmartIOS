@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "Core/Inc"
+                ,"Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+                ,"Drivers/CMSIS/Include"
+                ,"Drivers/STM32L0xx_HAL_Driver/Inc"
+                ,"C:/Users/pleasing/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.0/Drivers/STM32L0xx_HAL_Driver/Inc"
+                ,"C:/Users/pleasing/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.0/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"
+                ,"C:/Users/pleasing/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include"
+                ,"C:/Users/pleasing/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.0/Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "STM32L082xx",
+                "USE_FULL_LL_DRIVER",
+                "USE_HAL_DRIVER"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

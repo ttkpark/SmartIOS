@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.myfirstkotlin.MmenuIconContent
+        android:id="@+id/duplicateBtn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:visibility="visible"
+        app:IconSize="50dp"
+        app:MarginLeft="15dp"
+        app:MarginRight="20dp"
+        app:SubTitleSize="5sp"
+        app:TextSize="9.5sp"
+        app:Title="OFF"
+        app:iconSrc="@drawable/ic_blestate_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/QRCode3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subTitle="duplicate30"
+        app:subTitleColor="@color/white"
+        app:textColor="@color/white" />
+
+    <com.example.myfirstkotlin.MmenuIconContent
+        android:id="@+id/clientCode"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:translationX="160dp"
+        android:visibility="gone"
+        app:IconSize="50dp"
+        app:MarginLeft="15dp"
+        app:MarginRight="20dp"
+        app:SubTitleSize="5sp"
+        app:TextSize="9.5sp"
+        app:Title="1000"
+        app:iconSrc="@drawable/ic_baseline_business_37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subTitle="ClientCode"
+        app:subTitleColor="@color/white"
+        app:textColor="@color/white" >
+
+    </com.example.myfirstkotlin.MmenuIconContent>
+
+    <com.example.myfirstkotlin.MmenuIconContent
+        android:id="@+id/QRCode3"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        app:ContentOrientation="right"
+        app:IconSize="45dp"
+        app:MarginLeft="10dp"
+        app:MarginRight="12dp"
+        app:TextSize="11sp"
+        app:Title="QR"
+        app:iconSrc="@drawable/ic_baseline_qr_code_2_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subTitle=""
+        app:subTitleColor="@color/white"
+        app:subTitleVisible="false"
+        app:textColor="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:adjustViewBounds="false"
+        android:alpha="0.4"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toTopOf="@+id/beaconState"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:src="@mipmap/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/beaconState"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004"
+        tools:srcCompat="@drawable/ic_blestate_on" />
+</androidx.constraintlayout.widget.ConstraintLayout>

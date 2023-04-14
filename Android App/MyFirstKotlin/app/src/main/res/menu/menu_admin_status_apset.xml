@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/apDetailItem"
+        android:icon="@drawable/api_list_item_dist"
+        android:title="APDetails" /><!-- TODO : String Conversion -->
+    <item
+        android:id="@+id/apIPItem"
+        android:icon="@drawable/ic_baseline_business_37"
+        android:title="APIP" /><!-- TODO : String Conversion -->
+    <item
+        android:id="@+id/apGPSItem"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="APGPS" /><!-- TODO : String Conversion -->
+</menu>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="0dp"
+            android:layout_height="23dp"
+            android:background="?attr/colorPrimary"
+            android:gravity="center|center_vertical"
+            android:text="SMARTIOS (v1.0)"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.InOut_Nodeapp.AppBarOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/Theme.InOut_Nodeapp.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/SnackLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/copyright"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clientcode : "
+                android:textAlignment="textEnd"
+                android:textSize="18sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.875"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.06" />
+
+            <TextView
+                android:id="@+id/NowStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLE"
+                android:textSize="30sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.765"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.57" />
+
+            <Button
+                android:id="@+id/QRCodeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QRCode"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.068"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.036" />
+
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:adjustViewBounds="false"
+                android:alpha="0.4"
+                android:cropToPadding="false"
+                android:scaleType="center"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                app:layout_constraintBottom_toTopOf="@+id/beaconState"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ClientCode"
+                app:layout_constraintVertical_bias="0.81"
+                app:srcCompat="@mipmap/ic_launcher_foreground"
+                tools:src="@mipmap/ic_launcher_foreground" />
+
+            <!--android:visibility="invisible"-->
+
+            <Button
+                android:id="@+id/BtnOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ClientCode" />
+
+            <ImageView
+                android:id="@+id/beaconState"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.71000004"
+                tools:srcCompat="@drawable/ic_blestate_on" />
+
+            <com.example.inout_nodeapp.MmenuIconContent
+                android:id="@+id/QRCode"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="24dp"
+                app:ContentOrientation="right"
+                app:IconSize="45dp"
+                app:MarginLeft="10dp"
+                app:MarginRight="12dp"
+                app:TextSize="11sp"
+                app:Title="QR"
+                app:iconSrc="@drawable/ic_baseline_qr_code_2_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ClientCode"
+                app:subTitle=""
+                app:subTitleColor="@color/white"
+                app:subTitleVisible="false"
+                app:textColor="@color/white">
+
+            </com.example.inout_nodeapp.MmenuIconContent>
+
+            <com.example.inout_nodeapp.MmenuIconContent
+                android:id="@+id/NowINI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:translationX="0dp"
+                app:ContentOrientation="circle"
+                app:IconSize="45dp"
+                app:MarginLeft="9dp"
+                app:MarginRight="9dp"
+                app:MarginVertical="9dp"
+                app:TextSize="7sp"
+                app:Title="내근"
+                app:iconSrc="@drawable/ic_baseline_login_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:subTitleVisible="false"
+                app:textColor="@color/black">
+
+            </com.example.inout_nodeapp.MmenuIconContent>
+
+            <com.example.inout_nodeapp.MmenuIconContent
+                android:id="@+id/NowOUT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:translationX="0dp"
+                app:ContentOrientation="circle"
+                app:IconSize="45dp"
+                app:MarginLeft="9dp"
+                app:MarginRight="9dp"
+                app:MarginVertical="9dp"
+                app:TextSize="7sp"
+                app:Title="퇴근"
+                app:iconSrc="@drawable/ic_baseline_logout_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:subTitleVisible="false"
+                app:textColor="@color/black" />
+
+            <com.example.inout_nodeapp.MmenuIconContent
+                android:id="@+id/ClientCode"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:translationX="70dp"
+                app:IconSize="50dp"
+                app:MarginLeft="15dp"
+                app:MarginRight="20dp"
+                app:SubTitleSize="5sp"
+                app:TextSize="9.5sp"
+                app:Title="1000"
+                app:iconSrc="@drawable/ic_baseline_business_37"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.050000012"
+                app:subTitle="ClientCode"
+                app:subTitleColor="@color/white"
+                app:textColor="@color/white" />
+
+            <com.example.inout_nodeapp.MmenuIconContent
+                android:id="@+id/Toggle_IO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:translationX="0dp"
+                app:ContentOrientation="circle"
+                app:IconSize="45dp"
+                app:MarginLeft="9dp"
+                app:MarginRight="9dp"
+                app:MarginVertical="9dp"
+                app:TextSize="7sp"
+                app:Title="외근"
+                app:iconSrc="@drawable/ic_loading"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:subTitleVisible="false"
+                app:textColor="@color/black">
+
+            </com.example.inout_nodeapp.MmenuIconContent>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

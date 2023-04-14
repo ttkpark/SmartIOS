@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/apStatItem"
+        android:icon="@drawable/attend_list_item_door"
+        android:title="AP Status" /><!-- TODO : String Conversion -->
+    <item
+        android:id="@+id/clientStatItem"
+        android:icon="@drawable/ic_baseline_business_37"
+        android:title="Client Status" /><!-- TODO : String Conversion -->
+</menu>

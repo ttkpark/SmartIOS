@@ -1,0 +1,105 @@
+Date and Time : 08/14/21 07:13:44
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR(ORCAP-1628): Possible pin type conflict 24V  Power Connected to Output Port
+                    SCHEMATIC1, External Control  (129.54, 55.88) 
+ERROR(ORCAP-1628): Possible pin type conflict POE+  Output Port Connected to Power
+                    SCHEMATIC1, NIC  (213.36, 104.14) 
+ERROR(ORCAP-1628): Possible pin type conflict POE+  Output Port Connected to Power
+                    SCHEMATIC1, PAGE1  (27.94, 12.70) 
+WARNING(ORCAP-1829): Possible pin type conflict MISO  Output Port Connected to Bidirectional
+                    SCHEMATIC1, NIC  (121.92, 101.60) 
+WARNING(ORCAP-1829): Possible pin type conflict MISO  Output Port Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (27.94, 86.36) 
+WARNING(ORCAP-1829): Possible pin type conflict MISO  Output Port Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (142.24, 170.18) 
+WARNING(ORCAP-1829): Possible pin type conflict MISO  Output Port Connected to Bidirectional
+                    SCHEMATIC1, PAGE1  (154.94, 81.28) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,P0.05/AIN3  Bidirectional Connected to Output Port
+                    SCHEMATIC1, PAGE1  (167.64, 81.28) 
+ERROR(ORCAP-1628): Possible pin type conflict GND  Power Connected to Output Port
+                    SCHEMATIC1, NIC  (55.88, 124.46) 
+ERROR(ORCAP-1628): Possible pin type conflict POE-  Output Port Connected to Power
+                    SCHEMATIC1, NIC  (213.36, 106.68) 
+ERROR(ORCAP-1628): Possible pin type conflict POE-  Output Port Connected to Power
+                    SCHEMATIC1, PAGE1  (27.94, 22.86) 
+ERROR(ORCAP-1628): Possible pin type conflict U5,GND  Power Connected to Output Port
+                    SCHEMATIC1, External Control  (76.20, 157.48) 
+ERROR(ORCAP-1628): Possible pin type conflict U4,VSS  Power Connected to Output Port
+                    SCHEMATIC1, PAGE1  (91.44, 116.84) 
+ERROR(ORCAP-1628): Possible pin type conflict U4,VSS2  Power Connected to Output Port
+                    SCHEMATIC1, PAGE1  (91.44, 119.38) 
+ERROR(ORCAP-1628): Possible pin type conflict U4,VSSA  Power Connected to Output Port
+                    SCHEMATIC1, PAGE1  (91.44, 114.30) 
+ERROR(ORCAP-1628): Possible pin type conflict U1,VSS  Power Connected to Output Port
+                    SCHEMATIC1, PAGE1  (218.44, 111.76) 
+ERROR(ORCAP-1628): Possible pin type conflict 485RX  Input Port Connected to 3 State
+                    SCHEMATIC1, External Control  (25.40, 149.86) 
+ERROR(ORCAP-1628): Possible pin type conflict 485RX  Input Port Connected to 3 State
+                    SCHEMATIC1, PAGE1  (99.06, 76.20) 
+ERROR(ORCAP-1628): Possible pin type conflict U5,RO  3 State Connected to Input Port
+                    SCHEMATIC1, External Control  (58.42, 149.86) 
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: SMARIOS_AP 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? 3V3  3V3  VDD  
+                    SCHEMATIC1, NIC  (73.66, 78.74) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U5,VCC  VCC  3V3
+                    SCHEMATIC1, External Control  (73.66, 137.16) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,VDD  VDD  3V3
+                    SCHEMATIC1, PAGE1  (38.10, 111.76) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,VDD2  VDD2  3V3
+                    SCHEMATIC1, PAGE1  (38.10, 114.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,VDD3  VDD3  3V3
+                    SCHEMATIC1, PAGE1  (38.10, 116.84) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,VDDA/VREF  VDDA/VREF  3V3
+                    SCHEMATIC1, PAGE1  (38.10, 121.92) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_1  VDD_1  3V3
+                    SCHEMATIC1, PAGE1  (218.44, 99.06) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_2  VDD_2  3V3
+                    SCHEMATIC1, PAGE1  (218.44, 68.58) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,DEC1  DEC1  3V3
+                    SCHEMATIC1, PAGE1  (167.64, 66.04) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  3V3
+                    SCHEMATIC1, PAGE1  (167.64, 96.52) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

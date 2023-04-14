@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.inout_nodeapp.MainActivity">
+    <item
+        android:id="@+id/setting"
+        android:title="setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"/>
+    <!--
+    <item
+        android:id="@+id/btn_register"
+        android:title="btn_register" />
+    <item
+        android:id="@+id/btn_attendlist"
+        android:title="btn_attendList" />
+    <item
+        android:id="@+id/btn_apsetting"
+        android:title="AP Setting" />
+    <item
+        android:id="@+id/person"
+        android:title="Account" />
+    <item
+        android:id="@+id/btn_unregister"
+        android:title="btn_unregister" />
+    -->
+</menu>

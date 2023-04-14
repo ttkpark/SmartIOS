@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352039022873",
+    "project_id": "smartios-fcm",
+    "storage_bucket": "smartios-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352039022873:android:e4f77beabd321aeefed588",
+        "android_client_info": {
+          "package_name": "com.example.myfirstkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352039022873-ffvlcgh588odmogr69a8jh63ii573qff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8kP2E-xqjH8x0on9jQmEkfZpeOqcRaIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352039022873-ffvlcgh588odmogr69a8jh63ii573qff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
